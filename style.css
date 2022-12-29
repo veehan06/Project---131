@@ -1,0 +1,18 @@
+.heading
+{
+color: orange;
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+.an{
+    background-color: wheat;
+    color: beige;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 30px;
+}
