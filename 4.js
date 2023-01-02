@@ -15,12 +15,12 @@ function modelLoaded(){
     status4 = true;
     objectDetector.detect(img4, gotResults);
 }
-function gotResults(error, results){
-    if(error){
-        console.log(error)
+function gotResults(error4, results4){
+    if(error4){
+        console.log(error4)
     }
-    console.log(results);
-    objects4 = results;
+    console.log(results4);
+    objects4 = results4;
 }
 function draw(){
     image(img4, 0, 0, 640, 420);
